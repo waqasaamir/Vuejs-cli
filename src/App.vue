@@ -10,7 +10,7 @@
 </template>
 
 <script>
-
+  
 // Imports
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
@@ -22,7 +22,7 @@ export default {
         'app-footer': Footer,
         'app-ninjas': Ninjas
     },
-    data () {
+    data () {  
         return {
           ninjas: [
               {name: 'Ryu', speciality: 'Vue Components', show: false},
